@@ -1,241 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
 
     <title>Survey</title>
-</head>
-
-<body>
-
+  </head>
+  <body>
     <div class="container">
+      <h1>Survey Questions</h1>
+      <hr />
+      <br />
+      <h3>About You</h3>
 
-        <h1>Survey Questions</h1>
-        <hr>
-        <br>
-        <h3>About You</h3>
+      <h4>Name (Required)</h4>
+      <input type="text" id="name" class="form-control" required />
+      <br />
+      <h4>Photo Upload/URL (Required)</h4>
+      <input type="text" id="photo" class="form-control" required />
+      <br />
+      <hr />
+      <br />
+      <h4>Question 1</h4>
+      <p>You are generally quite even-tempered and don't get upset easily.</p>
 
-        <h4>Name (Required)</h4>
-        <input type="text" id="name" class="form-control" required>
-        <br>
-        <h4>Photo Upload/URL (Required)</h4>
-        <input type="text" id="photo" class="form-control" required>
-        <br>
-        <hr>
-        <br>
-        <h4>Question 1</h4>
-        <p>You are generally quite even-tempered and don't get upset easily.</p>
-        <div class="dropdown">
-            <select name="" id="q1">
-                <option value="0">Select an option</option> 
-                <option value="1">1 - Strongly Disagree</option>
-                <option value="2">2 - Disagree</option>
-                <option value="3">3 - Neutral</option>
-                <option value="4">4 - Agree</option>
-                <option value="5">5 - Strongly Agree</option>
-        </select>
+      <select name="" id="q1">
+        <option value="0">Select an option</option>
+        <option value="1">1 - Strongly Disagree</option>
+        <option value="2">2 - Disagree</option>
+        <option value="3">3 - Neutral</option>
+        <option value="4">4 - Agree</option>
+        <option value="5">5 - Strongly Agree</option>
+      </select>
 
-            <br>
-            <br>
+      <br />
+      <br />
 
-            <h4>Question 2</h4>
-            <p>You notice that people often feel comfortable confiding in you, even if you don't know them that well.</p>
-            <select name="" id="q1">
-                <option value="0">Select an option</option> 
-            <option value="1">1 - Strongly Disagree</option>
-            <option value="2">2 - Disagree</option>
-            <option value="3">3 - Neutral</option>
-            <option value="4">4 - Agree</option>
-            <option value="5">5 - Strongly Agree</option>
-    </select>
+      <h4>Question 2</h4>
+      <p>
+        You notice that people often feel comfortable confiding in you, even if
+        you don't know them that well.
+      </p>
+      <select name="" id="q2">
+        <option value="0">Select an option</option>
+        <option value="1">1 - Strongly Disagree</option>
+        <option value="2">2 - Disagree</option>
+        <option value="3">3 - Neutral</option>
+        <option value="4">4 - Agree</option>
+        <option value="5">5 - Strongly Agree</option>
+      </select>
 
-            <br>
-            <br>
+      <br />
+      <br />
 
-            <h4>Question 3</h4>
-            <p>You believe it's okay to lie sometimes if it's to spare someone's feelings and doesn't hurt anyone.</p>
-            <select name="" id="q1">
-                <option value="0">Select an option</option> 
-            <option value="1">1 - Strongly Disagree</option>
-            <option value="2">2 - Disagree</option>
-            <option value="3">3 - Neutral</option>
-            <option value="4">4 - Agree</option>
-            <option value="5">5 - Strongly Agree</option>
-    </select>
+      <h4>Question 3</h4>
+      <p>
+        You believe it's okay to lie sometimes if it's to spare someone's
+        feelings and doesn't hurt anyone.
+      </p>
+      <select name="" id="q3">
+        <option value="0">Select an option</option>
+        <option value="1">1 - Strongly Disagree</option>
+        <option value="2">2 - Disagree</option>
+        <option value="3">3 - Neutral</option>
+        <option value="4">4 - Agree</option>
+        <option value="5">5 - Strongly Agree</option>
+      </select>
 
-            <br>
-            <br>
+      <br />
+      <br />
 
-            <h4>Question 4</h4>
-            <p>Criticism is necessary for growth.</p>
+      <h4>Question 4</h4>
+      <p>Criticism is necessary for growth.</p>
 
-            <select name="" id="q1">
-                <option value="0">Select an option</option> 
-            <option value="1">1 - Strongly Disagree</option>
-            <option value="2">2 - Disagree</option>
-            <option value="3">3 - Neutral</option>
-            <option value="4">4 - Agree</option>
-            <option value="5">5 - Strongly Agree</option>
-    </select>
+      <select name="" id="q4">
+        <option value="0">Select an option</option>
+        <option value="1">1 - Strongly Disagree</option>
+        <option value="2">2 - Disagree</option>
+        <option value="3">3 - Neutral</option>
+        <option value="4">4 - Agree</option>
+        <option value="5">5 - Strongly Agree</option>
+      </select>
 
-            <br>
-            <br>
+      <br />
+      <br />
 
-            <h4>Question 5</h4>
-            <p>You worry what others might think of you.</p>
-            <select name="" id="q1">
-                <option value="0">Select an option</option> 
-            <option value="1">1 - Strongly Disagree</option>
-            <option value="2">2 - Disagree</option>
-            <option value="3">3 - Neutral</option>
-            <option value="4">4 - Agree</option>
-            <option value="5">5 - Strongly Agree</option>
-    </select>
+      <h4>Question 5</h4>
+      <p>You worry what others might think of you.</p>
+      <select name="" id="q5">
+        <option value="0">Select an option</option>
+        <option value="1">1 - Strongly Disagree</option>
+        <option value="2">2 - Disagree</option>
+        <option value="3">3 - Neutral</option>
+        <option value="4">4 - Agree</option>
+        <option value="5">5 - Strongly Agree</option>
+      </select>
 
-            <br>
-            <br>
+      <br />
+      <br />
 
-            <h4>Question 6</h4>
-            <p>You tend to speculate on things like the future of humankind, what the statistical likelihood is of meeting aliens in our galaxy, and similar things.</p>
+      <h4>Question 6</h4>
+      <p>
+        You tend to speculate on things like the future of humankind, what the
+        statistical likelihood is of meeting aliens in our galaxy, and similar
+        things.
+      </p>
 
-            <select name="" id="q1">
-                <option value="0">Select an option</option> 
-                <option value="1">1 - Strongly Disagree</option>
-                <option value="2">2 - Disagree</option>
-                <option value="3">3 - Neutral</option>
-                <option value="4">4 - Agree</option>
-                <option value="5">5 - Strongly Agree</option>
-        </select>
-            <br>
-            <br>
+      <select name="" id="q6">
+        <option value="0">Select an option</option>
+        <option value="1">1 - Strongly Disagree</option>
+        <option value="2">2 - Disagree</option>
+        <option value="3">3 - Neutral</option>
+        <option value="4">4 - Agree</option>
+        <option value="5">5 - Strongly Agree</option>
+      </select>
+      <br />
+      <br />
 
-            <h4>Question 7</h4>
-            <p>I need to be with a lot of people to have a good time.</p>
-            <select name="" id="q1">
-                <option value="0">Select an option</option> 
-            <option value="1">1 - Strongly Disagree</option>
-            <option value="2">2 - Disagree</option>
-            <option value="3">3 - Neutral</option>
-            <option value="4">4 - Agree</option>
-            <option value="5">5 - Strongly Agree</option>
-    </select>
+      <h4>Question 7</h4>
+      <p>I need to be with a lot of people to have a good time.</p>
+      <select name="" id="q7">
+        <option value="0">Select an option</option>
+        <option value="1">1 - Strongly Disagree</option>
+        <option value="2">2 - Disagree</option>
+        <option value="3">3 - Neutral</option>
+        <option value="4">4 - Agree</option>
+        <option value="5">5 - Strongly Agree</option>
+      </select>
 
-            <br>
-            <br>
+      <br />
+      <br />
 
-            <h4>Question 8</h4>
-            <p>You need to interact with people daily to be happy.</p>
-            <select name="" id="q1">
-                <option value="0">Select an option</option> 
-            <option value="1">1 - Strongly Disagree</option>
-            <option value="2">2 - Disagree</option>
-            <option value="3">3 - Neutral</option>
-            <option value="4">4 - Agree</option>
-            <option value="5">5 - Strongly Agree</option>
-    </select>
+      <h4>Question 8</h4>
+      <p>You need to interact with people daily to be happy.</p>
+      <select name="" id="q8">
+        <option value="0">Select an option</option>
+        <option value="1">1 - Strongly Disagree</option>
+        <option value="2">2 - Disagree</option>
+        <option value="3">3 - Neutral</option>
+        <option value="4">4 - Agree</option>
+        <option value="5">5 - Strongly Agree</option>
+      </select>
 
-            <br>
-            <br>
+      <br />
+      <br />
 
-            <h4>Question 9</h4>
-            <p>You enjoy luxurious experiences such as fine dining, expensive clothing, and resort travel.</p>
+      <h4>Question 9</h4>
+      <p>
+        You enjoy luxurious experiences such as fine dining, expensive clothing,
+        and resort travel.
+      </p>
 
-            <select name="" id="q1">
-                <option value="0">Select an option</option> 
-            <option value="1">1 - Strongly Disagree</option>
-            <option value="2">2 - Disagree</option>
-            <option value="3">3 - Neutral</option>
-            <option value="4">4 - Agree</option>
-            <option value="5">5 - Strongly Agree</option>
-    </select>
+      <select name="" id="q9">
+        <option value="0">Select an option</option>
+        <option value="1">1 - Strongly Disagree</option>
+        <option value="2">2 - Disagree</option>
+        <option value="3">3 - Neutral</option>
+        <option value="4">4 - Agree</option>
+        <option value="5">5 - Strongly Agree</option>
+      </select>
 
-            <br>
-            <br>
+      <br />
+      <br />
 
-            <h4>Question 10</h4>
-            <p>You always have lots of ideas but seem to have trouble putting them into action.</p>
+      <h4>Question 10</h4>
+      <p>
+        You always have lots of ideas but seem to have trouble putting them into
+        action.
+      </p>
 
+      <select class="score-reader" name="" id="q10">
+        <option value="0">Select an option</option>
+        <option value="1">1 - Strongly Disagree</option>
+        <option value="2">2 - Disagree</option>
+        <option value="3">3 - Neutral</option>
+        <option value="4">4 - Agree</option>
+        <option value="5">5 - Strongly Agree</option>
+      </select>
 
-            <select class="score-reader" name="" id="q1">
-                <option value="0">Select an option</option> 
-                <option value="1">1 - Strongly Disagree</option>
-                <option value="2">2 - Disagree</option>
-                <option value="3">3 - Neutral</option>
-                <option value="4">4 - Agree</option>
-                <option value="5">5 - Strongly Agree</option>
-        </select>
+      <br />
+      <br />
 
+      <button class="btn btn-lg btn-primary" id="submit">Submit</button>
 
-            <br>
-            <br>
+      <br />
+      <br />
+    </div>
 
-            <button class="btn btn-lg btn-primary" id="submit">Submit</button>
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
 
-            <br>
-            <br>
+    <!-- <script src="./script.js" type="text/javascript"></script> -->
+    <script>
+      console.log("working");
 
-        </div>
+      $(document).on("click", "#submit", function (event) {
+        event.preventDefault();
 
+        var newFriend = {
+          name: $("#name").val().trim(),
+          image: $("#photo").val().trim(),
+          scores: [
+            $("#q1").val(),
+            $("#q2").val(),
+            $("#q3").val(),
+            $("#q4").val(),
+            $("#q5").val(),
+            $("#q6").val(),
+            $("#q7").val(),
+            $("#q8").val(),
+            $("#q9").val(),
+            $("#q10").val(),
+          ],
+        };
 
+        console.log(newFriend);
 
+        $.post("/api/friends", newFriend, function (data) {
+          // Clear the form when submitting
+          $("#name").val("0");
+          $("#photo").val("0");
+          $("#q1").val("0");
+          $("#q2").val("0");
+          $("#q3").val("0");
+          $("#q4").val("0");
+          $("#q5").val("0");
+          $("#q6").val("0");
+          $("#q7").val("0");
+          $("#q8").val("0");
+          $("#q9").val("0");
+          $("#q10").val("0");
+        });
 
+        //
 
+        // newFriend.scores = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5]
+        // friendsArray[0].scores[4, 5, 3, 2, 1, 4, 5, 3, 4, 4]
 
+        // position 0: Math.abs( newFriend.scores[0] - friendsArray[0].scores[0])
 
+        // function calculateCompatibility() {
+        //     var newFriendArray = newFriend.scores;
 
-        <!-- Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-        <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
-
-
-        <script>
-            console.log("working");
-
-            $("#submit").on("click", function(event) {
-                event.preventDefault();
-
-
-                var newFriend = {
-                    name: $("#name").val().trim(),
-                    image: $("#photo").val().trim(),
-                    scores: $(".score-reader").val().trim()
-                };
-
-                console.log(newFriend);
-
-                $.post("/api/friends", newFriend,
-                    function(data) {
-
-
-                        if (data) {
-                            console.log("You've submitted your information.");
-                        }
-
-                        // If a table is available... tell user they on the waiting list.
-                        else {
-                            console.log("Sorry, please try again.");
-                        }
-
-                        // Clear the form when submitting
-                        $("#name").val("");
-                        $("#photo").val("");
-                        $(".scores").val("0");
-
-                    });
-
-            });
-        </script>
-
-
-</body>
-
+        //     for (i = 0; i < newFriendArray.length; i++) {
+        //         var difference =
+        //     }
+        // }
+      });
+    </script>
+  </body>
 </html>
