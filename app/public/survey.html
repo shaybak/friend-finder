@@ -22,15 +22,15 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Congratulations, <span id="newFriendName"></span>!</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        Your best match is:
-        <p id="matchName"></p>
-        <p id="matchPicture"></p>
+        Your new best friend is 
+        <span style="font-weight:bold" id="matchName"></span>
+        <img id="matchPic"></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -266,11 +266,10 @@
           console.log("Match name: " + data.name);
           console.log("Match photo: " + data.photo);
 
+          $("#newFriendName").text(newFriend.name);
           $("#matchName").text(data.name);
           $("#matchPic").attr("src", data.photo);
 
-          // Show the modal with the best match
-          // $('.modal').modal();
 
           // Clear the form when submitting
           $("#name").val("");
